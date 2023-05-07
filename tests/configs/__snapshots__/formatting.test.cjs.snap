@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formatting should match the snapshot 1`] = `
+{
+  "env": {
+    "es2022": true,
+    "node": true,
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+  },
+  "plugins": [
+    "n",
+  ],
+  "reportUnusedDisableDirectives": true,
+  "rules": {
+    "n/callback-return": "error",
+    "n/exports-style": "error",
+    "n/file-extension-in-import": "error",
+    "n/global-require": "error",
+    "n/no-mixed-requires": "error",
+    "n/no-process-env": "error",
+    "n/no-restricted-import": "error",
+    "n/no-restricted-require": "error",
+    "n/no-sync": "error",
+    "n/prefer-global/buffer": "error",
+    "n/prefer-global/console": "error",
+    "n/prefer-global/process": "error",
+    "n/prefer-global/text-decoder": "error",
+    "n/prefer-global/text-encoder": "error",
+    "n/prefer-global/url": "error",
+    "n/prefer-global/url-search-params": "error",
+    "n/prefer-promises/dns": "error",
+    "n/prefer-promises/fs": "error",
+  },
+}
+`;

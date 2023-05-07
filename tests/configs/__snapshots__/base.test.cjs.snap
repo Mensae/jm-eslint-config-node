@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`eslint-config-node should match the snapshot 1`] = `
+{
+  "env": {
+    "es2022": true,
+    "node": true,
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.cjs",
+        ".*.cjs",
+      ],
+      "parserOptions": {
+        "ecmaVersion": "latest",
+      },
+      "rules": {
+        "import/no-commonjs": "off",
+        "unicorn/prefer-module": "off",
+      },
+    },
+    {
+      "files": [
+        "*.mjs",
+        ".*.mjs",
+      ],
+      "parserOptions": {
+        "ecmaVersion": "latest",
+      },
+    },
+    {
+      "files": [
+        "*.ts",
+      ],
+      "rules": {
+        "n/file-extension-in-import": [
+          "error",
+          "never",
+        ],
+      },
+    },
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+  },
+  "plugins": [
+    "@microsoft/sdl",
+    "import",
+    "n",
+    "unicorn",
+  ],
+  "reportUnusedDisableDirectives": true,
+  "rules": {
+    "@microsoft/sdl/no-unsafe-alloc": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "bundledDependencies": false,
+        "devDependencies": [
+          "**/__mocks__/**",
+          "**/__tests__/**",
+          "**/.eslintrc.{js,cjs,ts}",
+          "**/*.e2e-spec.*",
+          "**/*.e2e.*",
+          "**/*.spec.*",
+          "**/*.test.*",
+          "**/cypress.config.{js,ts}",
+          "**/Gruntfile{,.js,.ts}",
+          "**/gulpfile.{js,ts}",
+          "**/gulpfile.*.{js,ts}",
+          "**/jest.config.{js,ts}",
+          "**/jest.setup.{js,ts}",
+          "**/karma.conf.{js,ts}",
+          "**/nuxt.config.{js,ts}",
+          "**/protractor.conf.{js,ts}",
+          "**/protractor.conf.*.{js,ts}",
+          "**/rollup.config.{js,ts}",
+          "**/rollup.config.*.{js,ts}",
+          "**/setupTests.{js,ts}",
+          "**/spec/**",
+          "**/test/**",
+          "**/tests/**",
+          "**/vite.config.{js,ts}",
+          "**/vue.config.{js,ts}",
+          "**/webpack.config.{js,ts}",
+          "**/webpack.config.*.{js,ts}",
+        ],
+        "includeTypes": true,
+        "optionalDependencies": false,
+        "peerDependencies": false,
+      },
+    ],
+    "n/handle-callback-err": [
+      "error",
+      "^.*(e|E)rror",
+    ],
+    "n/no-callback-literal": "error",
+    "n/no-deprecated-api": "error",
+    "n/no-exports-assign": "error",
+    "n/no-extraneous-import": "error",
+    "n/no-extraneous-require": "error",
+    "n/no-missing-import": "error",
+    "n/no-missing-require": "error",
+    "n/no-new-require": "error",
+    "n/no-path-concat": "error",
+    "n/no-process-exit": "error",
+    "n/no-unpublished-bin": "error",
+    "n/no-unpublished-import": "error",
+    "n/no-unpublished-require": "error",
+    "n/no-unsupported-features/es-builtins": "error",
+    "n/no-unsupported-features/es-syntax": "error",
+    "n/no-unsupported-features/node-builtins": "error",
+    "n/process-exit-as-throw": "error",
+    "n/shebang": "error",
+    "unicorn/no-new-buffer": "error",
+    "unicorn/prefer-event-target": "error",
+    "unicorn/prefer-json-parse-buffer": "error",
+    "unicorn/prefer-node-protocol": "error",
+  },
+}
+`;
