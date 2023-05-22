@@ -4,7 +4,9 @@
   "description": "An ESLint config which point out only problems and enforcing best practices for Node environment",
   "exports": {
     ".": "./configs/index.cjs",
+    "./node-relaxed": "./configs/node-relaxed.cjs",
     "./formatting": "./configs/formatting.cjs",
+    "./formatting-relaxed": "./configs/formatting-relaxed.cjs",
     "./package.json": "./package.json"
   },
   "scripts": {
