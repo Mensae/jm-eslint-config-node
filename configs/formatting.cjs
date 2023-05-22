@@ -91,7 +91,7 @@ module.exports = Object.freeze({
      * https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md
      * Category: Stylistic Issues
      */
-    'n/no-sync': ERROR,
+    'n/no-sync': OFF,
 
     /*
      * Enforce either `Buffer` or `require("buffer").Buffer`
