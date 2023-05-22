@@ -36,14 +36,14 @@
     "@microsoft/eslint-plugin-sdl": "^0.2.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-unicorn": "^46.0.0"
+    "eslint-plugin-unicorn": "^46.0.1"
   },
   "devDependencies": {
     "@jm/eslint-config-base": "github:Mensae/jm-eslint-config-base",
-    "eslint": "^8.40.0",
+    "eslint": "^8.41.0",
     "jest": "^29.5.0",
     "prettier": "^2.8.8",
-    "rimraf": "^5.0.0"
+    "rimraf": "^5.0.1"
   },
   "peerDependencies": {
     "eslint": ">=8"
