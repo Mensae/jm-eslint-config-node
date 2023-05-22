@@ -6,6 +6,7 @@
 
 /* eslint-env node */
 
+const OFF = 'off';
 const ERROR = 'error';
 
 module.exports = Object.freeze({

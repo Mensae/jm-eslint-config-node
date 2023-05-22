@@ -597,7 +597,7 @@ exports[`node config plus formatting 1`] = `
       "error",
     ],
     "n/no-sync": [
-      "error",
+      "off",
     ],
     "n/no-unpublished-bin": [
       "error",
